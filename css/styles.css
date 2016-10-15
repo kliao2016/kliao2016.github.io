@@ -1,0 +1,6 @@
+.bgimage {
+    background-image: url('../images/MaroonBells.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 2560px;
+}
