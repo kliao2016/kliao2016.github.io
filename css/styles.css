@@ -1,14 +1,22 @@
-@media (max-height: 1930px) {
-    .img-responsive {
-        max-width: auto;
-        max-height: auto;
-    }
-}
-
 .embed-responsive {
     position: relative;
     display: block;
     height: 0;
     padding: 0;
     overflow: hidden;
+}
+
+.jumbotron1 {
+    padding: 0px;
+}
+
+.post-content {
+    top:0;
+    left:0;
+    position: absolute;
+}
+
+.thumbnail{
+    position:relative;
+
 }
