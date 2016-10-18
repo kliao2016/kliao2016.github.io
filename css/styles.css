@@ -1,3 +1,10 @@
+.bgimage {
+    background-image: url('../images/homephoto.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+}
+
 .embed-responsive {
     position: relative;
     display: block;
@@ -6,17 +13,6 @@
     overflow: hidden;
 }
 
-.jumbotron1 {
-    padding: 0px;
-}
-
-.post-content {
-    top:0;
-    left:0;
-    position: absolute;
-}
-
-.thumbnail{
-    position:relative;
-
+body {
+    padding-top: 0px;
 }
