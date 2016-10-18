@@ -25,6 +25,9 @@ body {
 
 .thumbnail {
     position: relative;
+    margin-bottom: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 .caption {
@@ -35,5 +38,6 @@ body {
 }
 
 .thumbnail .caption {
+    padding: 30px;
     color: #ffffff;
 }
