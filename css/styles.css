@@ -1,9 +1,9 @@
-/*.bgimage {
+.bgimage {
     background-image: url('../images/homephoto.jpg');
     background-position: center center;
     background-size: cover;
     height: 700px;
-}*/
+}
 
 .embed-responsive {
     position: relative;
@@ -22,4 +22,9 @@ body {
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
+    min-height: 336.656px;
+}
+
+.navbar {
+    margin-bottom: 0px;
 }
