@@ -1,5 +1,5 @@
 html {
-  background: url('../images/homephoto.jpg') no-repeat center center fixed;
+  background: url('../images/homephoto.jpg') no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,7 +25,7 @@ body {
 
 .caption {
     position: absolute;
-    top: 82%;
+    bottom: 3%;
     left: 0;
     width: 100%;
 }
