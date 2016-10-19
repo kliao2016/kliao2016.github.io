@@ -50,7 +50,8 @@ body {
 }
 
 blockquote {
-  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #E3E3E3;
   position: relative;
   display: inline-block;
   padding: 8px;
