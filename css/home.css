@@ -4,8 +4,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 31px;
-    min-height: 51px;
+    padding-top: 0px;
+    min-height: 0px;
     padding-bottom: 0px;
 }
 

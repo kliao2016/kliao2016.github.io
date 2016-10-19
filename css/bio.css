@@ -6,3 +6,11 @@
 h3 {
     margin-top: 10px;
 }
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
