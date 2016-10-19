@@ -17,11 +17,21 @@ body {
     margin-bottom: 0px;
 }
 
+.thumbnail {
+    margin-bottom: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
 .caption {
     position: absolute;
-    top: 100%;
+    top: 79.5%;
     left: 0;
     width: 100%;
+}
+
+.thumbnail .caption {
+    padding: 10px;
 }
 
 blockquote {
