@@ -13,40 +13,15 @@ body {
     color: #FFFFFF
 }
 
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-    height: 51px;
-}
-
 .navbar {
     margin-bottom: 0px;
 }
 
-.thumbnail {
-    position: relative;
-    margin-bottom: 0px;
-    padding: 0px;
-    border: 0px;
-}
-
 .caption {
     position: absolute;
-    top: 45%;
+    top: 100%;
     left: 0;
     width: 100%;
-}
-
-.thumbnail .caption {
-    padding: 10px;
-}
-
-.title{
-  display: inline-block;
-  margin: auto;
-  padding:.3em;
-  background-color: rgba(0, 0, 0, 0.25);
-  color: #E6E6E8;
 }
 
 blockquote {
