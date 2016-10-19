@@ -1,20 +1,27 @@
-html {
-  background: url('../images/homephoto.jpg') no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 body {
+    background: url('../images/homephoto.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding-top: 31px;
     min-height: 51px;
     padding-bottom: 0px;
     color: #FFFFFF
 }
 
-.navbar {
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.5);
     margin-bottom: 0px;
+    border-bottom: 0px;
 }
 
 .thumbnail {
@@ -35,12 +42,12 @@ body {
 }
 
 blockquote {
-  background-color: rgba(0, 0, 0, 0.45);
-  color: #E3E3E3;
-  position: relative;
-  display: inline-block;
-  padding: 8px;
-  margin: 0px auto;
-  border-left: 5px solid #84AC8F;
-  border-right: 5px solid #84AC8F;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: #E3E3E3;
+    position: relative;
+    display: inline-block;
+    padding: 8px;
+    margin: 0px auto;
+    border-left: 5px solid #84AC8F;
+    border-right: 5px solid #84AC8F;
 }
