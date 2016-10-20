@@ -14,7 +14,19 @@ h3 {
     border: 0px;
 }
 
-#imgthumb2 {
+#hikethumb {
+    padding: 0px;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+#hackthumb {
+    padding: 0px;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+#golfthumb {
     padding: 0px;
     border: 0px;
     margin-bottom: 10px;
@@ -40,5 +52,9 @@ h4 {
 }
 
 #textcol {
+    color: black;
+}
+
+.col-md-4 {
     color: black;
 }
