@@ -116,13 +116,14 @@ p {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    padding: 5px;
 }
 
 #imgs:hover {
     opacity: 0.7;
 }
 
-#shermancap {
+#captions {
     font-size: 18px;
-    color: white;
+    color: black;
 }
