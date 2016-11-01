@@ -79,7 +79,7 @@ h4 {
     height: 1px;
     position: absolute;
     top: 50%;
-    width: 400%;
+    width: 675%;
 }
 
 #schoolheader:before {
@@ -94,6 +94,6 @@ h4 {
     /*background-color: #EEEEEE;*/
 }
 
-#prointerests {
+#myinfo {
     padding-bottom: 20px;
 }
