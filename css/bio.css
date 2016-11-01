@@ -12,6 +12,8 @@ h3 {
 #imgthumb {
     padding: 0px;
     border: 0px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 #hikethumb {
@@ -53,5 +55,53 @@ h4 {
     margin-bottom: 20px;
     text-align: center;
     color: black;
-    color: black;
+}
+
+#header {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+#schoolheader {
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+}
+
+#schoolheader:before,
+#schoolheader:after {
+    background: #000000;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 300%;
+}
+
+#schoolheader:before {
+    right: 100%;
+}
+
+#schoolheader:after {
+    left: 100%;
+}
+
+#header {
+    padding-bottom: 40px;
+}
+
+.content {
+    /*background-color: #EEEEEE;*/
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#prointerests {
+    padding-bottom: 20px;
 }
