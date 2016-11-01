@@ -60,6 +60,9 @@ h4 {
 #header {
     font-family: 'Dosis', sans-serif;
     text-align: center;
+    padding-bottom: 40px;
+    overflow: hidden;
+
 }
 
 #schoolheader {
@@ -76,7 +79,7 @@ h4 {
     height: 1px;
     position: absolute;
     top: 50%;
-    width: 100%;
+    width: 400%;
 }
 
 #schoolheader:before {
@@ -85,10 +88,6 @@ h4 {
 
 #schoolheader:after {
     left: 100%;
-}
-
-#header {
-    padding-bottom: 40px;
 }
 
 .content {
