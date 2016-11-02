@@ -37,3 +37,7 @@ h2 {
 .mypar {
     text-align: center;
 }
+
+body {
+    min-height: 900px;
+}
