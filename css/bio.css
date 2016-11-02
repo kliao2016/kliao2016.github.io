@@ -112,14 +112,36 @@ p {
     }
 }
 
-#imgs {
+#img1 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
     padding: 5px;
 }
 
-#imgs:hover {
+#img1:hover {
+    opacity: 0.7;
+}
+
+#img2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+#img2:hover {
+    opacity: 0.7;
+}
+
+#img3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+#img3:hover {
     opacity: 0.7;
 }
 
