@@ -1,4 +1,4 @@
-$('.carousel').carousel({
+$('.carousel-inner').carousel({
     interval: false
 });
 

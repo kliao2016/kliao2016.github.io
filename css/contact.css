@@ -12,3 +12,7 @@ h1 {
     color: black;
     margin-bottom: 25px;
 }
+
+body {
+    min-height: 0px;
+}
