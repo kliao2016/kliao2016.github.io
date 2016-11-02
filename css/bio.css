@@ -1,7 +1,4 @@
-h3 {
-    margin-top: 10px;
-}
-
+/* Navbar */
 .nav.navbar-nav.navbar-right li a {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -48,10 +45,16 @@ h3 {
     margin-bottom: 20px;
 }
 
+/* Headers */
+h3 {
+    margin-top: 10px;
+}
+
 h4 {
     font-weight: normal;
 }
 
+/* Main Text */
 #textcol {
     color: black;
     font-family: 'Josefin Sans', sans-serif;
@@ -102,8 +105,13 @@ h4 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+/* Paragraphs */
 p {
     font-size: 14px;
+}
+
+#links {
+    text-align: center;
 }
 
 /* 100% Image Width on Smaller Screens */
@@ -113,6 +121,7 @@ p {
     }
 }
 
+/* Image Gallery */
 #img1 {
     border-radius: 5px;
     cursor: pointer;
@@ -157,11 +166,8 @@ p {
     opacity: 0.7;
 }
 
+/* Image Captions */
 #captions {
     font-size: 18px;
     color: black;
-}
-
-#links {
-    text-align: center;
 }
