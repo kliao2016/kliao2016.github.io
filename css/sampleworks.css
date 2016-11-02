@@ -2,7 +2,8 @@ h1 {
     color: black;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 48px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -27,6 +28,7 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #pictxt {
@@ -40,4 +42,12 @@ h2 {
 
 body {
     min-height: 900px;
+}
+
+#firstimg {
+    padding-bottom: 25px;
+}
+
+.featurette-divider {
+    border: 1px solid gray;
 }
