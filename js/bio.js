@@ -14,3 +14,8 @@ $("#img3").click(function(){
     $("#myCarousel").carousel(2);
 });
 
+$("#img4").click(function(){
+    $("#myCarousel").carousel(3);
+});
+
+
