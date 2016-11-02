@@ -1,12 +1,17 @@
 h3 {
     margin-top: 10px;
 }
+
 .nav.navbar-nav.navbar-right li a {
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
 }
 
 .navbar-default .navbar-brand {
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
 }
 
 #imgthumb {
