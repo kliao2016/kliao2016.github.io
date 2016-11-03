@@ -25,3 +25,12 @@ body {
 .active a{
     background-color: #4CAF50 !important;
 }
+
+#text {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+
+.fa {
+    font-size: 15px;
+}
