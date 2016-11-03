@@ -16,7 +16,7 @@ h1 {
 }
 
 body {
-    min-height: 0px;
+    padding-top: 70px;
 }
 
 .nav.navbar-nav.navbar-right li a {
