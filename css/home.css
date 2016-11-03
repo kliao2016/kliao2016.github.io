@@ -27,6 +27,14 @@ body {
     border-bottom: 0px;
 }
 
+.nav.navbar-nav.navbar-right li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.navbar-default .navbar-brand:hover:not(.active) {
+    background-color: #111;
+}
+
 .thumbnail {
     margin-bottom: 0px;
     padding: 0px;
