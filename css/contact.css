@@ -31,6 +31,18 @@ body {
     font-size: 18px;
 }
 
+.nav.navbar-nav.navbar-right li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.navbar-default .navbar-brand:hover:not(.active) {
+    background-color: #111;
+}
+
+.active a{
+    background-color: #4CAF50 !important;
+}
+
 a:link {
     text-decoration: none;
 }
