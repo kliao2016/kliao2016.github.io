@@ -31,24 +31,6 @@
     text-align: center;
 }
 
-#hikethumb {
-    padding: 0px;
-    border: 0px;
-    margin-bottom: 10px;
-}
-
-#hackthumb {
-    padding: 0px;
-    border: 0px;
-    margin-bottom: 10px;
-}
-
-#golfthumb {
-    padding: 0px;
-    border: 0px;
-    margin-bottom: 10px;
-}
-
 .img-fluid {
     width: 100%;
 }
@@ -63,10 +45,6 @@ h3 {
     margin-top: 10px;
 }
 
-h4 {
-    font-weight: normal;
-}
-
 /* Main Text */
 #textcol {
     color: black;
@@ -79,12 +57,24 @@ h4 {
     color: black;
 }
 
+#classes {
+    text-align: left;
+    margin-bottom: 20px;
+    color: black;
+}
+
 #header {
     font-family: 'Dosis', sans-serif;
     text-align: center;
     padding-bottom: 40px;
     overflow: hidden;
+}
 
+#eduheader {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    overflow: hidden;
 }
 
 #schoolheader {
@@ -179,10 +169,34 @@ p {
     opacity: 0.7;
 }
 
+#img5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+#img5:hover {
+    opacity: 0.7;
+}
+
 /* Image Captions */
 #captions {
     font-size: 18px;
     color: black;
+}
+
+/* Vertical Dividers */
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #000000;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
 }
 
 body {

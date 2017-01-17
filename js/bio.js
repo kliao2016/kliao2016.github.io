@@ -17,3 +17,7 @@ $("#img3").click(function(){
 $("#img4").click(function(){
     $("#myCarousel").carousel(3);
 });
+
+$("#img5").click(function(){
+    $("#myCarousel").carousel(4);
+});
