@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="../css/sampleworks.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
     <title>Kevin Liao - Sample Works</title>
   </head>
@@ -40,34 +41,57 @@
     </nav>
 
     <div class="container text-center">
-      <h1>A Collection of My Projects</h1>
+      <h1 id="edgetitle"><strong>A Collection of My Projects</strong></h1>
     </div>
 
     <hr class="featurette-divider">
 
-    <div class="container" id="maintext">
-      <h2 id="mapheader">MapView for UWTicketBuddy</h2>
-      <div class="row" id="picrow">
-        <div class="col-md-6">
-          <img src="../images/locationpermission.jpg" class="img-responsive" id="firstimg">
-        </div>
-        <div class="col-md-6">
-          <img src="../images/locationservices.jpg" class="img-responsive" id="secondimg">
-        </div>
-      </div>
-      <div class="row">
+    <h2 class="w3-center" id="title">MapView for UWTicketBuddy</h2>
+
+    <div class="w3-content w3-display-container" id="slideshow">
+      <img class="mapviewslide" src="../images/locationpermission.jpg" style="width:100%">
+      <img class="mapviewslide" src="../images/locationservices.jpg" style="width:100%">
+
+      <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+      <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+    </div>
+
+    <div class="container">
         <div class="container" id="pictxt">
           <p>UWTicketBuddy is a project started at HackGT 2016 by me, Brian Glowniak, Daniel Hathcock, and Yu-Lin Yang. It is an app that is meant to streamline the process of buying and selling football tickets at the University of Wisconsin - Madison because football is such a big deal there. At every game, there are those who want to sell a ticket they already purchased and those who want to get their hands on a ticket, but was unable to get on officially. This app creates a place where these people can easily negotiate trades. I worked on the implementation of the Google Maps API and location services, which will help buyers and sellers see who is near them.</p><p id="mypar"><a href="https://github.com/kliao2016/Mapview-for-TicketBuddy" class="btn btn-success" target="https://github.com/kliao2016/Mapview-for-TicketBuddy" role="button">View the code on GitHub</a></p>
         </div>
-      </div>
     </div>
+
+    <hr class="featurette-divider">
+
+    <h2 class="w3-center" id="title">Happy Tap</h2>
+
+    <div class="w3-content w3-display-container" id="slideshow">
+      <img class="htslide" src="../images/hticn.png" style="width:100%">
+      <img class="htslide" src="../images/htstart.png" style="width:100%">
+      <img class="htslide" src="../images/htreset.png" style="width:100%">
+
+      <a class="w3-btn-floating w3-display-left" onclick="htplusDivs(-1)">&#10094;</a>
+      <a class="w3-btn-floating w3-display-right" onclick="htplusDivs(1)">&#10095;</a>
+    </div>
+
+    <div class="container">
+        <div class="container" id="pictxt">
+          <p>Happy Tap is a simple iOS application created by Risha Parikh and me at HackGTeeny 2017 in order to gain
+          more practice with using Xcode and Swift. The rules of the game are simple: Two players try to see who can
+          tap the screen the most number of times before a timer runs out. In terms of functionality, the app includes
+          10-second timer and the ability to start and reset the game. </p><p id="mypar"><a href="https://github.com/rparikh36/hackGT" class="btn btn-success" target="https://github.com/rparikh36/hackGT" role="button">View the code on GitHub</a></p>
+        </div>
+    </div>
+
 
     <hr class="featurette-divider" id="bottomdivider">
 
-    <div class="container" id="maintext">
-      <h2>More to come in the future!</h2>
+    <div class="container">
+      <h2 id="edgetitle"><strong>More to come in the future!</strong></h2>
     </div>
 
+    <script src="../js/sampleworks.js"></script>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
