@@ -1,3 +1,5 @@
+Credit to AJ and html5up.net for providing the general layout and custom classes for my website:
+
 Forty by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)

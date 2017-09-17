@@ -2169,7 +2169,7 @@
 		.icon.alt:before {
 			background-color: #ffffff;
 			border-radius: 100%;
-			color: #242943;
+			color: #000000;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -2968,7 +2968,8 @@
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			width: 100%;
+			background-color: #43B7DE;
 		}
 
 			.spotlights > section > .image {
@@ -2977,13 +2978,13 @@
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 30%;
+				width: 0%;
 			}
 
 				.spotlights > section > .image img {
 					border-radius: 0;
 					display: block;
-					width: 100%;
+					width: 0%;
 				}
 
 				.spotlights > section > .image:before {
@@ -2995,7 +2996,7 @@
 					opacity: 0;
 					position: absolute;
 					top: 0;
-					width: 100%;
+					width: 0%;
 				}
 
 			.spotlights > section > .content {
@@ -3289,11 +3290,13 @@
 		}
 
 			#header.alt.style1 .logo strong {
-				color: #6fc3df;
+				/*color: #6fc3df;*/
+				color: #2e3842;
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				/*color: #8d82c4;*/
+				color: #2e3842;
 			}
 
 			#header.alt.style3 .logo strong {
@@ -3524,7 +3527,8 @@
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			/*background-color: #6fc3df;*/
+			background-color: #2e3842;
 		}
 
 		#banner.style2:after {
@@ -3997,7 +4001,7 @@
 		}
 
 /*
-	Custom css
+	Custom CSS
  */
 #projects_article {
 	width: 100%;
@@ -4006,6 +4010,24 @@
 #thanks_title {
 	font-size: 18px;
 	margin-bottom: 0px;
+}
+
+#two {
+	background-color: #37a6cb;
+	color: #000000;
+}
+
+#involvement_header {
+	color: #000000;
+}
+
+#involvement_underline > :first-child:after {
+	background-color: #000000;
+}
+
+#involvement_button {
+	box-shadow: inset 0 0 0 2px #000000;
+	color: #000000;
 }
 
 
