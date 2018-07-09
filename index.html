@@ -1,127 +1,60 @@
-<!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Kevin Liao</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>Kevin Liao</title>
+
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+      <!-- Fonts -->
+      <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+      <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Lora:400italic,400' rel='stylesheet' type='text/css'>
+
+      <!-- Custom CSS -->
+      <link href='css/main.css' rel='stylesheet' type='text/css'>
+      <style type="text/css">
+        body {
+          background-image: url("images/home.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 100%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          padding-top: 30px;
+        }
+
+        .nav-link {
+          display: flex;
+          align-items: center;
+          color: black;
+        }
+      </style>
+
 	</head>
 	<body>
+		<nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: transparent;">
+		  <a class="navbar-brand" href="index.html"><strong>kevin liao</strong></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+		    <div class="navbar-nav">
+		      <a class="nav-item nav-link active" href="pages/about.html">ABOUT</a>
+		      <a class="nav-item nav-link active" href="pages/projects.html">PROJECTS</a>
+		      <a class="nav-item nav-link active" href="#">RESUME</a>
+          <a class="nav-item nav-link active" href="https://github.com/kliao2016"><span class="fa fa-github-alt"></span></a>
+          <a class="nav-item nav-link active" href="mailto:kliao2020@gatech.edu"><span class="fa fa-envelope"></span></a>
+		    </div>
+		  </div>
+		</nav>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Kevin Liao</strong></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="pages/about.html">About</a></li>
-							<li><a href="pages/education.html">Education</a></li>
-							<li><a href="pages/projects.html">Projects</a></li>
-						</ul>
-						<ul class="actions vertical">
-							<li><a href="https://drive.google.com/open?id=0B0AAcd9voND7ODYxbjJxRjJJWUU" class="button special fit">Resume</a></li>
-							<li><a href="#footer" class="button fit">Contact</a></li>
-						</ul>
-					</nav>
-
-				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-								<h1>Kevin Liao</h1>
-							</header>
-							<div class="content">
-								<p>Georgia Institute of Technology<br />
-								Computer Science</p>
-								<ul class="actions">
-									<li><a href="https://drive.google.com/open?id=0B0AAcd9voND7ODYxbjJxRjJJWUU" target="https://drive.google.com/open?id=0B0AAcd9voND7ODYxbjJxRjJJWUU" class="button">Resume</a></li>
-								</ul>
-                                <ul class="actions">
-                                    <li><a href="#footer" class="button">Contact</a></li>
-                                </ul>
-							</div>
-						</div>
-					</section>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/aboutme.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="pages/about.html" class="link">About Me</a></h3>
-										<p>My background, interests, and mission</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/gatech.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="pages/education.html" class="link">Education</a></h3>
-										<p>Georgia Tech</p>
-                                        <p>Involvement</p>
-                                        <p>Classes</p>
-									</header>
-								</article>
-								<article id='projects_article'>
-									<span class="image">
-										<img src="images/projects.png" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="pages/projects.html" class="link">Projects</a></h3>
-										<p>A Collection of My Personal Projects</p>
-									</header>
-								</article>
-							</section>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<p id="thanks_title">THANKS FOR VISITING! <br> Contact me with the links below!</p>
-							<ul class="icons">
-                                <li><a href="mailto:kliao2020@gatech.edu" target="mailto:kliao2020@gatech.edu" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-								<li><a href="https://github.com/kliao2016" target="https://github.com/kliao2016" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/kevin-liao-56712312a" target="https://www.linkedin.com/in/kevin-liao-56712312a" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>Phone: (720)-939-2269</li><li>&copy; Kevin Liao 2017</li>
-							</ul>
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+		<!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 	</body>
 </html>
