@@ -9,6 +9,11 @@ body {
 section {
   padding-top: 90px;
   font-family: "Raleway", sans-serif;
+  height: 100%;
+}
+
+section h1 {
+  text-align: center;
 }
 
 /* Navbar */
@@ -28,7 +33,7 @@ nav {
 
 /* Main section styling */
 #home {
-  background-image: url("../images/home.png");
+  background-image: url("../images/home-min.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -37,12 +42,12 @@ nav {
 
 /* About section styling */
 #about {
-  background-image: url("../images/gatech.png");
+  background-image: url("../images/gatech-min.jpg");
+  background-blend-mode: color-dodge;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   text-align: center;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +65,7 @@ nav {
   position: relative;
 }
 
-.about-background {
+.about-overlay {
   position: absolute;
   opacity: 0.5;
   top: 100%;
@@ -79,11 +84,48 @@ nav {
   float: left;
 }
 
+#contact .nav-link {
+  padding: 0.5rem 0.5rem;
+}
+
 /* Education styling */
 #education {
-  height: 100%;
+  background-image: url("../images/gt-logo.svg");
+  background-blend-mode: color-dodge;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 #education h1 {
-  text-align: center;
+  position: relative;
 }
+
+.education-overlay {
+  position: absolute;
+  opacity: 0.5;
+  top: 200%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#edu-info {
+  position: relative;
+  width: 88%;
+  padding-left: 6%;
+  padding-right: 6%;
+  margin: auto;
+  padding-bottom: 90px;
+}
+
+#placeholder-col {
+  height: 20%;
+}
+
+

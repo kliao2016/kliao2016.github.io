@@ -20,8 +20,9 @@
 		<nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: transparent;">
       <div id="contact">
         <a class="navbar-brand" href="#home"><strong>kevin liao</strong></a>
-        <a class="navbar-brand" href="https://github.com/kliao2016"><span class="fa fa-github-alt"></span></a>
-        <a class="navbar-brand" href="mailto:kliao2020@gatech.edu"><span class="fa fa-envelope"></span></a>
+        <a class="nav-item nav-link" href="https://github.com/kliao2016" target="_blank"><span class="fa fa-github-alt"></span></a>
+        <a class="nav-item nav-link" href="mailto:kliao2020@gatech.edu" target="_blank"><span class="fa fa-envelope"></span></a>
+        <a class="nav-item nav-link" href="https://www.linkedin.com/in/kevin-liao-56712312a" target="_blank"><span class="fa fa-linkedin"></span></a>
       </div>
 <!--       <div id="contact">
       </div> -->
@@ -33,7 +34,7 @@
 		      <a class="nav-item nav-link" href="#about">ABOUT</a>
           <a class="nav-item nav-link" href="#education">EDUCATION</a>
 		      <a class="nav-item nav-link" href="#projects">PROJECTS</a>
-		      <a class="nav-item nav-link" href="#resume">RESUME</a>
+		      <a class="nav-item nav-link" href="https://drive.google.com/open?id=1mJvBZbz7ptVCzDHEKfBeAeRelVKzfYis" target="_blank">RESUME</a>
 		    </div>
 		  </div>
 		</nav>
@@ -41,8 +42,8 @@
     <section id="home"></section>
 
     <section id="about">
-      <div class="about-background"></div>
-      <h1><strong>about</strong></h1>
+      <div class="about-overlay"></div>
+      <h1><strong>about me</strong></h1>
 
       <br>
       <br>
@@ -51,18 +52,44 @@
     </section>
 
     <section id="education">
+      <div class="education-overlay"></div>
       <h1><strong>education</strong></h1>
+      <div class="row" id="edu-info">
+        <div class="col-xl">
+          <h3><strong>Threads/Concentrations</strong></h3>
+          <p>My threads at Georgia Tech are Information Internetworks and Intelligence. This upcoming semester (Fall 2018), I will be taking classes in computer networking, information security, as well as machine learning.</p>
+        </div>
+        <div class="col-xl" id="placeholder-col"></div>
+        <div class="col-xl">
+          <h3><strong>Courses I have Taken</strong></h3>
+          <p>My threads at Georgia Tech are Information Internetworks and Intelligence. This upcoming semester (Fall 2018), I will be taking classes in computer networking, information security, as well as machine learning.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1><strong>projects</strong></h1>
     </section>
 
 		<!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
       $('.navbar-nav a').on('click', function(e) {
         if ($(e.target).is('a')) {
+            // Hide navbar
             $('.navbar-collapse').collapse('hide');
+
+            // Scroll to section
+            var section = $(this).attr("href");
+            if (section[0] == '#') {
+              e.preventDefault();
+              $("html, body").animate({
+                  scrollTop: $(section).offset().top
+              }, 500);
+            }
         }
       });
     </script>
