@@ -12,49 +12,59 @@
       <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Lora:400italic,400' rel='stylesheet' type='text/css'>
 
-      <!-- Custom CSS -->
+      <!-- Styles -->
       <link href='css/main.css' rel='stylesheet' type='text/css'>
-      <style type="text/css">
-        body {
-          background-image: url("images/home.png");
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: cover;
-          height: 100%;
-          display: flex;
-          align-items: flex-start;
-          justify-content: center;
-          padding-top: 30px;
-        }
-
-        .nav-link {
-          display: flex;
-          align-items: center;
-          color: black;
-        }
-      </style>
 
 	</head>
 	<body>
 		<nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: transparent;">
-		  <a class="navbar-brand" href="index.html"><strong>kevin liao</strong></a>
+      <div id="contact">
+        <a class="navbar-brand" href="#home"><strong>kevin liao</strong></a>
+        <a class="navbar-brand" href="https://github.com/kliao2016"><span class="fa fa-github-alt"></span></a>
+        <a class="navbar-brand" href="mailto:kliao2020@gatech.edu"><span class="fa fa-envelope"></span></a>
+      </div>
+<!--       <div id="contact">
+      </div> -->
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 		    <div class="navbar-nav">
-		      <a class="nav-item nav-link active" href="pages/about.html">ABOUT</a>
-		      <a class="nav-item nav-link active" href="pages/projects.html">PROJECTS</a>
-		      <a class="nav-item nav-link active" href="#">RESUME</a>
-          <a class="nav-item nav-link active" href="https://github.com/kliao2016"><span class="fa fa-github-alt"></span></a>
-          <a class="nav-item nav-link active" href="mailto:kliao2020@gatech.edu"><span class="fa fa-envelope"></span></a>
+		      <a class="nav-item nav-link" href="#about">ABOUT</a>
+          <a class="nav-item nav-link" href="#education">EDUCATION</a>
+		      <a class="nav-item nav-link" href="#projects">PROJECTS</a>
+		      <a class="nav-item nav-link" href="#resume">RESUME</a>
 		    </div>
 		  </div>
 		</nav>
+
+    <section id="home"></section>
+
+    <section id="about">
+      <div class="about-background"></div>
+      <h1><strong>about</strong></h1>
+
+      <br>
+      <br>
+
+      <h4>Hi! I study Computer Science at Georgia Tech. I am currently interning at AT&T as a Full Stack Developer using Angular. I love creating products that help other people and I'm passionate about design and iOS development.</h4>
+    </section>
+
+    <section id="education">
+      <h1><strong>education</strong></h1>
+    </section>
 
 		<!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      $('.navbar-nav a').on('click', function(e) {
+        if ($(e.target).is('a')) {
+            $('.navbar-collapse').collapse('hide');
+        }
+      });
+    </script>
 	</body>
 </html>
