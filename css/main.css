@@ -31,6 +31,7 @@ nav {
   align-items: center;
   color: black;
 }
+/* End Overall Styling */
 
 /* Main section styling */
 #home {
@@ -109,63 +110,6 @@ nav {
 
 #education h3 {
   margin: 0;
-}
-
-#education .card {
-  display: flex;
-  align-items: center;
-}
-
-#education-overlay {
-  position: absolute;
-  opacity: 0.5;
-  top: 200%;
-  left: 0;
-  width: 100%;
-  height: 200%;
-  background-color: #fff;
-}
-
-#edu-info {
-  position: relative;
-  width: 88%;
-  padding-left: 6%;
-  padding-right: 6%;
-  margin: auto;
-  padding-bottom: 90px;
-  text-align: center;
-}
-
-#edu-info:before {
-  display: block;
-  content: " ";
-  width: 7px;
-  height: 7px;
-  border: #ededed 1px solid;
-  position: absolute;
-  top: -5px;
-  left: 50%;
-  margin-left: -5px;
-  background: black;
-  box-shadow:black 0 0 0 5px;
-  border-radius: 3px;
-}
-
-#edu-info .col-xl {
-  justify-content: center;
-}
-
-#edu-info .row {
-  width: 100%;
-}
-
-#placeholder-col {
-  height: 33%;
-/*  background-image: url("../images/gt-logo.svg");
-  background-blend-mode: color-dodge;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 150px 150px;*/
 }
 
 /* Projects styling */

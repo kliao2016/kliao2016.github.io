@@ -1,4 +1,4 @@
-// For general nav link
+/* Smooth scroll for general nav link */
 $('.navbar a').on('click', function(e) {
   if ($(e.target).is('a')) {
       // Hide navbar
@@ -15,7 +15,7 @@ $('.navbar a').on('click', function(e) {
   }
 });
 
-// For home nav link
+/* Smooth scroll for home nav link */
 $('a').on('click', function(e) {
   var section = $(this).attr("href");
   if (section[0] == '#') {
@@ -26,7 +26,7 @@ $('a').on('click', function(e) {
   }
 });
 
-// For card links
+/* Smooth scroll for card links */
 $('#projects .card').on('click', function(e) {
   var section = $(this).attr("href");
   if (section[0] == '#') {
@@ -38,6 +38,7 @@ $('#projects .card').on('click', function(e) {
 });
 
 /* Change navbar color on scroll */
+// Section coordinates
 var section1 = $('#home').offset().top;
 var section2 = $('#about').offset().top;
 var section3 = $('#education').offset().top;
