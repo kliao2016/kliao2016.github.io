@@ -53,7 +53,11 @@ $(document).scroll(function() {
     $('nav').css('-moz-box-shadow', '');
     $('nav').css('box-shadow', '');
   } else {
-    $('nav').css('background-color', '#90A4AE');
+    if (scrollPos >= section3 && scrollPos < section4) {
+      $('nav').css('background-color', '#90A4AE');
+    } else if (scrollPos >= section4) {
+      $('nav').css('background-color', 'whitesmoke');
+    }
     $('nav').css('-webkit-box-shadow', '0 4px 3px -3px #999');
     $('nav').css('-moz-box-shadow', '0 4px 3px -3px #999');
     $('nav').css('box-shadow', '0 4px 3px -3px #999');

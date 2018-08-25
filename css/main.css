@@ -92,6 +92,7 @@ nav {
 
 /* Education styling */
 #education {
+  background-color: #FFEE58;
   background-blend-mode: color-dodge;
   background-repeat: no-repeat;
   background-position: center;
@@ -174,6 +175,7 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background-color: whitesmoke;
 }
 
 #projects .row {
