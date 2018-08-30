@@ -1,0 +1,147 @@
+/* ============================= Overall Styling ============================ */
+body {
+	scroll-behavior: smooth;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding-top: 90px;
+  min-height: 100%;
+}
+
+.container-fluid h1 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+/* Navbar */
+nav {
+	font-family: "Raleway", sans-serif;
+}
+
+/* Uncomment for black nav links */
+.navbar .navbar-collapse .navbar-nav a {
+  color: #212121;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+hr {
+  padding: 10px 0;
+}
+
+.item {
+  display: block;
+  width: 95%;
+  padding: 20px 0;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Card */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+/* ========================== End Overall Styling =========================== */
+
+/* ============================== Home Styling ============================== */
+#home {
+  background-image: url("../images/home-min.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+/* ============================ End Home Styling ============================ */
+
+/* ============================== About Styling ============================= */
+#about {
+  text-align: center;
+  display: block;
+  margin-bottom: 90px;
+}
+
+#about img {
+  border-radius: 113px;
+}
+
+#about .container {
+  text-align: left;
+}
+/* ============================ End About Styling =========================== */
+
+/* ============================= Contact Styling ============================ */
+#contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  float: left;
+}
+
+#contact .nav-link {
+  padding: 0.5rem 0.5rem;
+}
+/* ========================== End Contact Styling =========================== */
+
+/* ============================ Education styling =========================== */
+#education {
+  background-color: #EAAA00;
+  display: block;
+  padding-bottom: 90px;
+}
+/* ========================= End Education Styling ========================== */
+
+/* ============================ Projects Styling ============================ */
+#projects {
+  background-color: whitesmoke;
+  display: block;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+#projects .container {
+  text-align: left;
+}
+
+/* FOR FUTURE USE */
+/*#projects {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+#projects .row {
+  width: 100%;
+  margin: auto;
+}*/
+/* =========================== End Projects Styling ========================= */
+
+#projects .row .col-md {
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+/* Tour Client styling */
+
+
