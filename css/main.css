@@ -114,6 +114,11 @@ hr {
   background-color: whitesmoke;
   display: block;
   padding-bottom: 90px;
+  text-align: center;
+}
+
+#projects .container {
+  text-align: left;
 }
 
 /* FOR FUTURE USE */
