@@ -1,4 +1,4 @@
-/* Overall styling */
+/* ============================= Overall Styling ============================ */
 body {
 	scroll-behavior: smooth;
   overflow-x: hidden;
@@ -8,11 +8,11 @@ body {
 
 .container-fluid {
   padding-top: 90px;
-  font-family: "Raleway", sans-serif;
   min-height: 100%;
 }
 
 .container-fluid h1 {
+  font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
@@ -31,107 +31,20 @@ nav {
   align-items: center;
   color: black;
 }
-/* End Overall Styling */
 
-/* Main section styling */
-#home {
-  background-image: url("../images/home-min.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
+hr {
+  padding: 10px 0;
 }
 
-/* About section styling */
-#about {
-  background-image: url("../images/gatech-min.jpg");
-  background-blend-mode: color-dodge;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+.item {
+  display: block;
+  width: 95%;
+  padding: 20px 0;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
 }
 
-#about h4 {
-  width: 88%;
-  padding-left: 6%;
-  padding-right: 6%;
-  position: relative;
-}
-
-#about h1 {
-  position: relative;
-}
-
-.about-overlay {
-  position: absolute;
-  opacity: 0.5;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  background-blend-mode: color-dodge;
-}
-/* End About section styling */
-
-/* Contact styling */
-#contact {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  float: left;
-}
-
-#contact .nav-link {
-  padding: 0.5rem 0.5rem;
-}
-
-/* Education styling */
-#education {
-  background-color: #FFEE58;
-  background-blend-mode: color-dodge;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-#education h1 {
-  position: relative;
-}
-
-#education h3 {
-  margin: 0;
-}
-
-/* Projects styling */
-#projects {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: whitesmoke;
-}
-
-#projects .row {
-  width: 100%;
-  margin: auto;
-}
-
-#projects .row .col-md {
-  justify-content: center;
-  padding-bottom: 30px;
-}
-
+/* Card */
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -146,6 +59,82 @@ nav {
 
 .card img {
   border-radius: 10px 10px 0 0;
+}
+/* ========================== End Overall Styling =========================== */
+
+/* ============================== Home Styling ============================== */
+#home {
+  background-image: url("../images/home-min.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+/* ============================ End Home Styling ============================ */
+
+/* ============================== About Styling ============================= */
+#about {
+  text-align: center;
+  display: block;
+  margin-bottom: 90px;
+}
+
+#about img {
+  border-radius: 113px;
+}
+
+#about .container {
+  text-align: left;
+}
+/* ============================ End About Styling =========================== */
+
+/* ============================= Contact Styling ============================ */
+#contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  float: left;
+}
+
+#contact .nav-link {
+  padding: 0.5rem 0.5rem;
+}
+/* ========================== End Contact Styling =========================== */
+
+/* ============================ Education styling =========================== */
+#education {
+  background-color: #EAAA00;
+  display: block;
+  padding-bottom: 90px;
+}
+/* ========================= End Education Styling ========================== */
+
+/* ============================ Projects Styling ============================ */
+#projects {
+  background-color: whitesmoke;
+  display: block;
+  padding-bottom: 90px;
+}
+
+/* FOR FUTURE USE */
+/*#projects {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+#projects .row {
+  width: 100%;
+  margin: auto;
+}*/
+/* =========================== End Projects Styling ========================= */
+
+#projects .row .col-md {
+  justify-content: center;
+  padding-bottom: 30px;
 }
 
 /* Tour Client styling */

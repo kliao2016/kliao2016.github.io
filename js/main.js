@@ -9,7 +9,7 @@ $('.navbar a').on('click', function(e) {
       if (section[0] == '#') {
         e.preventDefault();
         $("html, body").animate({
-            scrollTop: $(section).offset().top
+            scrollTop: $(section).offset().top + 3
         }, 500);
       }
   }
@@ -21,7 +21,7 @@ $('a').on('click', function(e) {
   if (section[0] == '#') {
     e.preventDefault();
     $("html, body").animate({
-        scrollTop: $(section).offset().top
+        scrollTop: $(section).offset().top + 3
     }, 500);
   }
 });
@@ -32,7 +32,7 @@ $('#projects .card').on('click', function(e) {
   if (section[0] == '#') {
     e.preventDefault();
     $("html, body").animate({
-        scrollTop: $(section).offset().top
+        scrollTop: $(section).offset().top + 3
     }, 500);
   }
 });
@@ -47,20 +47,13 @@ var section4 = $('#projects').offset().top;
 $(document).scroll(function() {
   var scrollPos = $(document).scrollTop();
   if ((scrollPos >= section1 && scrollPos < section2)
-       || scrollPos < section1
-       || (scrollPos >= section2 && scrollPos < section3)) {
+       || scrollPos < section1) {
     $('nav').css('background-color', 'transparent');
-    $('nav').css('-webkit-box-shadow', '');
-    $('nav').css('-moz-box-shadow', '');
-    $('nav').css('box-shadow', '');
-  } else {
-    if (scrollPos >= section3 && scrollPos < section4) {
-      $('nav').css('background-color', '#90A4AE');
-    } else if (scrollPos >= section4) {
-      $('nav').css('background-color', 'whitesmoke');
-    }
-    $('nav').css('-webkit-box-shadow', '0 4px 3px -3px #999');
-    $('nav').css('-moz-box-shadow', '0 4px 3px -3px #999');
-    $('nav').css('box-shadow', '0 4px 3px -3px #999');
+  } else if (scrollPos >= section2 && scrollPos < section3) {
+    $('nav').css('background-color', 'white');
+  } else if (scrollPos >= section3 && scrollPos < section4) {
+    $('nav').css('background-color', '#EAAA00');
+  } else if (scrollPos >= section4) {
+    $('nav').css('background-color', 'whitesmoke');
   }
 });
