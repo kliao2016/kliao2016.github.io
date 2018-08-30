@@ -1,1 +1,1 @@
-This website describes my goals, education, and projects. @Kevin Liao 2018
+This website describes my goals, education, and projects. ©Kevin Liao 2018
