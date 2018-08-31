@@ -1,6 +1,6 @@
 /* ============================= Overall Styling ============================ */
 body {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
   overflow-x: hidden;
   padding: 0;
   margin: 0;
@@ -18,7 +18,7 @@ body {
 
 /* Navbar */
 nav {
-	font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Uncomment for black nav links */
@@ -131,17 +131,15 @@ hr {
   background-color: whitesmoke;
 }
 
-#projects .row {
-  width: 100%;
-  margin: auto;
-}*/
-/* =========================== End Projects Styling ========================= */
-
 #projects .row .col-md {
   justify-content: center;
   padding-bottom: 30px;
 }
 
-/* Tour Client styling */
+#projects .row {
+  width: 100%;
+  margin: auto;
+}*/
+/* =========================== End Projects Styling ========================= */
 
 
