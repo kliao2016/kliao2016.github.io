@@ -1,6 +1,7 @@
 /* ============================= Overall Styling ============================ */
 body {
-  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth; /* For Chrome, Safari */
+  -moz-scroll-behavior: smooth; /* Fix Firefox smooth scroll */
   overflow-x: hidden;
   padding: 0;
   margin: 0;
