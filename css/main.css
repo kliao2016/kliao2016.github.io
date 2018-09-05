@@ -2,6 +2,7 @@
 body {
   -webkit-scroll-behavior: smooth; /* For Chrome, Safari */
   -moz-scroll-behavior: smooth; /* Fix Firefox smooth scroll */
+  scroll-behavior: smooth;
   overflow-x: hidden;
   padding: 0;
   margin: 0;
