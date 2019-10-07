@@ -21,6 +21,7 @@ body {
 /* Navbar */
 nav {
   font-family: "Raleway", sans-serif;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
 /* Uncomment for black nav links */
