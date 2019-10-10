@@ -32,9 +32,10 @@ nav {
   -moz-transition: background-color 0.3s linear;
 }
 
-.navbar .navbar-collapse .navbar-nav a:hover {
+/* Uncomment for nav links hover color */
+/*.navbar .navbar-collapse .navbar-nav a:hover {
   background-color: grey;
-}
+}*/
 
 .nav-link {
   display: flex;
